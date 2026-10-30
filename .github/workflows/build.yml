@@ -1,9 +1,8 @@
 name: Build MyCode IPA
-
 on:
   push:
     branches: [ main ]
-  workflow_dispatch: # 允许手动点击按钮触发
+  workflow_dispatch:
 
 jobs:
   build:
